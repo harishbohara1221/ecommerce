@@ -1,8 +1,18 @@
-import React from 'react'
+import React from 'react';
+
 
 export const Banner = () => {
   return (
-    <header>Banner</header>
+    <div className='container'>
+    <header>
+        <div className='headerText'>
+            <div>
+                <h1>simply dummy text of the printing</h1>
+                <p> simply dummy text of the printing and typesetting industry</p>
+            </div>
+        </div>
+    </header>
+    </div>
   )
 }
 
